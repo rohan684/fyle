@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="w3.css">
+    <script type="text/javascript" src="file.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <title>Fyle</title>
+</head>
+<body>
+    <div class="w3-container w3-row">
+        <div class="w3-col m6" style="margin-left:1%;">
+            <p class="hh1">AWARD WINNING</p>
+            <h1 class="hh2">DIGITAL MARKETING</h1>
+            <h1 class="hh2">AGENCY</h1>
+            <p class="hh3">Morbi sed lacus nec risus finibus et fermentum nibh. Pellentesque
+                vitae ante at elit fringilla ac at purus, Morbi sed lacus nec risus finibus
+                feugiat et fermentum
+            </p>
+            <button class="w3-button w3-red btn1 w3-hover w3-hover-pink" onclick="open_form()">CONTACT US</button>
+
+        </div>
+        <div class="w3-col m4 " style="margin-left:3%;">
+            <img src="img/first_lady.png" alt="not supported" class="img1">
+        </div>
+
+        <div id="form" class="Form_div">
+            <form action="https://getform.io/f/6d18745c-e6a7-462e-8164-f687eee40ea7" method="POST" id="form">
+                <label class="Form_heading">Talk to us</label><br>
+
+                <label class="hidden_text" id="hidden_item">Work email</label>
+                <input type="email" name="email" placeholder="Work email*" class="input_box" id="box1" onkeypress="document.getElementById('hidden_item').style.opacity=1;" style="width: 100%; margin: 0px 0px 25px 0px;" autocomplete="off" required><br>
+
+                <label class="hidden_text" id="hidden_item1">First name</label>
+                <label class="hidden_text" style="margin-left: 35%;" id="hidden_item2">Last name</label><br>
+                <input type="text" name="first_name" placeholder="First name*" class="input_box" id="box2"  onkeypress="document.getElementById('hidden_item1').style.opacity=1;" style="width: 47%;" autocomplete="off" required>
+                <input type="text" name="last_name" placeholder="Last name*" class="input_box" id="box3"  onkeypress="document.getElementById('hidden_item2').style.opacity=1;" style="margin-left: 18px; width: 47%; margin-bottom: 20px;" autocomplete="off" required><br>
+                
+                <div class="w3-row" style="padding:5px 0 20px 0">
+                    <label class="w3-col m1 container">
+                        <input type="checkbox" name="checkbox">
+                        <span class="checkmark" ></span>
+                    </label>
+                    <label for="checkbox" class="w3-col m10 checkbox_text">I agree to Fyle's terms and conditions, and provide<br>
+                        consent to send me communication.</label>
+                </div>
+                <input type="submit" value="Contact Us" class="submit_btn">
+            </form>
+        </div>
+    </div>
+
+    <div class="w3-container w3-row what_we_do">
+        <div class="w3-col m6">
+            <h5 class="hhh1">WHAT WE DO</h5>
+            <h1 class="hhh2">SERVICES PROVIDE</h1>
+            <h1 class="hhh2 hhh2_1">FOR YOU</h1>
+        </div>
+        <div class="w3-col m6">
+            <p class="hhh3">Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque<br> 
+                vitae ante at elit fringilla ac at purus, Morbi sed lacus nec risus finibus<br> 
+                feugiat et fermentum</p>
+        </div>
+        <div class="w3-row owl-carousel owl-theme slider_div">
+            
+            <div class="img_div">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front ">
+                        <img src="img/1.png" alt="Avatar" class="img_card">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="img/icon.svg" alt="not_supported" class="logo_size">
+                        <h4>WEB DEVELOPMENT</h4>
+                        <p style="font-size: 12px;">Morbi sed lacus noc risus finibus feugiat <br> et fermentum nibh. Pellentesque</p><br>
+                        
+                        <a href="https://www.fylehq.com/" target="_blank"><button type="button" class="Flip_button" ><p class="flip_text">READ MORE</p><img src="img/arrow.svg" alt="not_supported" class="Flip_image"></button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="img_div">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front ">
+                        <img src="img/2.png" alt="Avatar" class="img_card">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="img/icon.svg" alt="not_supported" class="logo_size">
+                        <h4>WEB DEVELOPMENT</h4>
+                        <p style="font-size: 12px;">Morbi sed lacus noc risus finibus feugiat <br> et fermentum nibh. Pellentesque</p><br>
+                        <a href="https://www.fylehq.com/" target="_blank"><button type="button" class="Flip_button" ><p class="flip_text">READ MORE</p><img src="img/arrow.svg" alt="not_supported" class="Flip_image"></button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="img_div">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front ">
+                        <img src="img/3.png" alt="Avatar" class="img_card">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="img/icon.svg" alt="not_supported" class="logo_size">
+                        <h4>WEB DEVELOPMENT</h4>
+                        <p style="font-size: 12px;">Morbi sed lacus noc risus finibus feugiat <br> et fermentum nibh. Pellentesque</p><br>
+                        <a href="https://www.fylehq.com/" target="_blank"><button type="button" class="Flip_button" ><p class="flip_text">READ MORE</p><img src="img/arrow.svg" alt="not_supported" class="Flip_image"></button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="img_div">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front ">
+                        <img src="img/4.jpg" alt="Avatar" class="img_card">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="img/icon.svg" alt="not_supported" class="logo_size">
+                        <h4>WEB DEVELOPMENT</h4>
+                        <p style="font-size: 12px;">Morbi sed lacus noc risus finibus feugiat <br> et fermentum nibh. Pellentesque</p><br>
+                        <a href="https://www.fylehq.com/" target="_blank"><button type="button" class="Flip_button" ><p class="flip_text">READ MORE</p><img src="img/arrow.svg" alt="not_supported" class="Flip_image"></button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row why_choose_us">
+        <div class="w3-row">
+            <h5 class="aa1">WHY CHOOSE US</h5>
+            <P class="aa2">WHY WE ARE BEST</P>
+        </div>
+        <div class="w3-row" style="padding-bottom:30px;">
+            
+            <div class="w3-col m2 gap">
+                <img src="img/svg1.svg" alt="not_supported">
+                <h5 class="aa3">Clarified Vision & Target</h5>
+                <h6 class="aa4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</h6>
+            </div>
+            <div class="w3-col m2">
+                <img src="img/svg2.svg" alt="not_supported">
+                <h5 class="aa3" style="margin-top: 16px;">High Performance</h5>
+                <h6 class="aa4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</h6>
+            </div>
+            <div class="w3-col m2">
+                <img src="img/svg3.svg" alt="not_supported">
+                <h5 class="aa3" style="margin-top: 13px;">Maintain Security</h5>
+                <h6 class="aa4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</h6>
+            </div>
+            <div class="w3-col m2">
+                <img src="img/svg4.svg" alt="not_supported">
+                <h5 class="aa3">Better Strategy & Quality</h5>
+                <h6 class="aa4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</h6>
+            </div>
+        </div>
+
+        <div class="w3-col m12">
+            <h5 class="aa1">OUR PROJECT</h5>
+            <P class="aa2">WHY WE ARE BEST</P>
+            <div class="aa5 w3-col m5">
+                <img src="img/image.png" height="347px" width="558px" id="getImage" alt="not_supported">
+            </div>
+
+            <div class="w3-col m3 aa6">
+                <button class="w3-button w3-Gray2 w3-hover w3-hover-red btn2" onclick="imageChange(1)">
+                    <h5 class="aa6_head">Genderless Kei – Japan’s Hot</h5>
+                    <p class="aa6_head1">Set to launch on the manufacturer’s <br> 
+                        new A330neo aircraft in 2017, it’s <br> offering lots of
+                    </p>
+                </button>
+                <button class="btn2 w3-Gray2 w3-button w3-hover w3-hover-red" onclick="imageChange(2)">
+                    <h5 class="aa6_head">Better Strategy & Quality</h5>
+                    <p class="aa6_head1">Set to launch on the manufacturer’s <br> 
+                        new A330neo aircraft in 2017, it’s <br> offering lots of
+                    </p>
+                </button>
+                <button class="btn2 w3-Gray2 w3-button w3-hover w3-hover-red" onclick="imageChange(3)">
+                    <h5 class="aa6_head">Genderless Kei – Japan’s Hot</h5>
+                    <p class="aa6_head1">Set to launch on the manufacturer’s <br> 
+                        new A330neo aircraft in 2017, it’s <br> offering lots of
+                    </p>
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="w3-row our_company_growths">
+        <h5 class="aa1">EXPERTS GROWTHS</h5>
+        <P class="aa2">OUR COMPANY GROWTHS</P>
+        <div class="w3-row">
+            <div class="w3-card w3-col m2 cards" style="margin-left: 15%;">
+                <img src="img/heart.svg" alt="not_supported" class="card_images">
+                <h1 class="card_head_text">199 +</h1>
+                <h5 class="card_body_text">Staticfied Customers</h5>
+            </div>
+            <div class="w3-card w3-col m2 cards">
+                <img src="img/clock.svg" alt="not_supported" class="card_images">
+                <h1 class="card_head_text">1591+</h1>
+                <h5 class="card_body_text">Days Of Operation</h5>
+            </div>
+            <div class="w3-card w3-col m2 cards">
+                <img src="img/tick.svg" alt="not_supported" class="card_images">
+                <h1 class="card_head_text">283 +</h1>
+                <h5 class="card_body_text">Complete Project</h5>
+            </div>
+            <div class="w3-card w3-col m2 cards">
+                <img src="img/champ.svg" alt="not_supported" class="card_images" style="margin-top: 11%; padding-bottom: 2px;">
+                <h1 class="card_head_text">75+</h1>
+                <h5 class="card_body_text">Win Awards</h5>
+            </div>
+        </div>
+    </div> 
+
+    <div class="w3-row clients_feedback">
+        <h5 class="aa1">CLIENT'S FEEDBACK</h5>
+        <P class="aa2">PEOPLE SAY'S ABOUT US !</P>
+        <div class="w3-row">
+            <img src="img/Quotemarks.svg" alt="not_supported" class="quote_mark">
+            <h4 class="quote_mark_text">Jannat Tumpa The standard chunk of Lorem Ipsum used since the 1500s is <br> 
+                reproduced below for those interested. Sections Bonorum et Malorum original.
+            </h4>
+            <h5 class="bb1">
+                JANNAT TUMPA<font class="bb1_1">- COO, AMERIMAR ENTERPRISES, INC.</font> 
+            </h5>
+        </div>
+    </div>
+
+    <div class="w3-row" style="background-color: red; height: 309px;">
+        <img src="img/NoPath.png" alt="not_supported" class="red_box">
+        <img src="img/Group.png" alt="not_supported" class="group">
+    </div>
+  
+    <script type="text/javascript">
+        $(document).mouseup(function (e) {
+            if ($(e.target).closest(".Form_div").length=== 0) {
+                $(".Form_div").hide();
+                $("form")[0].reset();
+                $("#hidden_item").css("opacity",0);
+                $("#hidden_item1").css("opacity",0);
+                $("#hidden_item2").css("opacity",0);
+            }
+        });
+        $(function() {
+			$('#box1').keyup(function() {
+				var txtlen = $(this).val().length;
+                if(txtlen==0){
+                    $("#hidden_item").css("opacity",0);
+                }
+			});
+            $('#box2').keyup(function() {
+				var txtlen = $(this).val().length;
+                if(txtlen==0){
+                    $("#hidden_item1").css("opacity",0);
+                }
+			});
+            $('#box3').keyup(function() {
+				var txtlen = $(this).val().length;
+                if(txtlen==0){
+                    $("#hidden_item2").css("opacity",0);
+                }
+			});
+		});
+        $(function () {
+        function setDots(){
+            $(".slider_div .owl-dots").removeClass('disabled');}
+            });
+        $(".slider_div").owlCarousel({
+        stagePadding:10, 
+        items:4,
+        margin:90,
+        loop: true,
+        autoplay: true,
+        dots:true,
+        autoplayTimeout: 2500, 
+        autoplayHoverPause: true,
+      });
+    </script>
+</body>
+</html>
